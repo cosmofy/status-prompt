@@ -2,6 +2,8 @@
 
 This script exists to monitor the state of keys for the Cosmofy application
 
+Execute runme.bash
+
 # Required Packages
 
 * Ncurses
