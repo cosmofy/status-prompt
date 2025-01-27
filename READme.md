@@ -16,7 +16,7 @@ Execute runme.bash
 
 # Reccomendation
 
-Make this script available everywhere on your computer. Bellow code makes a "bin" directory in your home directory and modifies .bashrc to include that in the path. This makes it so that you can execute the code from anywhere in your computer.
+Make this script available everywhere on your computer. Bellow code makes a "bin" directory in your home directory and modifies .bashrc to include that in the path. This makes it so that you can execute the code from anywhere in your computer. Note that this only works for the regular user. If you want to make it available to all users, it would be better to place it in ``/usr/local``
 
 ```bash
 mkdir -p ~/bin
